@@ -1,0 +1,20 @@
+# Zanzibar EasyTrip — Netlify config
+# Pretty URLs + sensible headers. Works as-is on Netlify/Cloudflare/Vercel.
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
+  status = 200
+
+[[headers]]
+  for = "zanzibar-airport-to-nungwi"
+  [headers.values]
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "zanzibar-airport-to-paje"
+  [headers.values]
+    X-Robots-Tag = "index, follow"
