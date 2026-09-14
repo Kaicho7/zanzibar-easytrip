@@ -1,4 +1,4 @@
-/* Zanzibar EasyTrip — booking funnel behaviour.
+/* Zanzibar AI Concierge — booking funnel behaviour.
    Wire all CTAs to the WhatsApp deep-link, render dynamic prices,
    and compose the transfer inquiry from the form on each page. */
 

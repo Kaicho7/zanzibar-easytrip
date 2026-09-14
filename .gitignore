@@ -1,0 +1,4 @@
+# Secrets — never commit. Stripe keys live in Netlify env vars.
+.env
+
+node_modules/

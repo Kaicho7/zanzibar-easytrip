@@ -1,4 +1,4 @@
-# Zanzibar EasyTrip — Netlify config
+# Zanzibar AI Concierge — Netlify config
 # Pretty URLs + sensible headers. Works as-is on Netlify/Cloudflare/Vercel.
 
 [build]
