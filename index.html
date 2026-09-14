@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zanzibar AI Concierge — Instant Itineraries &amp; Bookings</title>
+  <title>Zanzibar Airport Transfer — Fixed Price, Named Driver | Zanzibar EasyTrip</title>
   <meta name="description" content="Private Zanzibar airport transfer at a fixed all-inclusive price. Named licensed driver, meet & greet at Terminal 3, flight tracking, cold water. Book in 60 seconds on WhatsApp. ZNZ to Stone Town, Nungwi, Paje or Kendwa.">
   <link rel="canonical" href="/">
   <meta name="robots" content="index, follow">
@@ -12,15 +12,13 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
 
   <link rel="stylesheet" href="css/style.css">
-  <!-- Stripe.js – instant payment (test key) -->
-  <script src="https://js.stripe.com/v3/" defer></script>
 
   <!-- Structured data: LocalBusiness (TravelAgency) + TaxiService + FAQ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
-    "name": "Zanzibar AI Concierge",
+    "name": "Zanzibar EasyTrip",
     "description": "Private, fixed-price Zanzibar airport transfers and curated island excursions delivered by vetted licensed local operators.",
     "areaServed": ["Stone Town", "Nungwi", "Kendwa", "Paje", "Jambiani", "Zanzibar"],
     "priceRange": "$$",
@@ -56,7 +54,7 @@
 
 <header class="site">
   <div class="wrap">
-    <div class="brand">Zanzibar AI Concierge<small>Instant itineraries. Fixed prices. Seamless booking.</small></div>
+    <div class="brand">Zanzibar EasyTrip<small>One WhatsApp. Confirmed prices. Confirmed pickup.</small></div>
     <nav class="top">
       <a href="zanzibar-airport-to-nungwi.html">Transfers</a>
       <a href="arrivals-guide.html">Arrival Guide</a>
@@ -66,7 +64,7 @@
 
 <div class="hero">
   <div class="wrap">
-    <h1>Zanzibar AI Concierge.<br><span class="em">Instant itineraries.</span> Fixed prices. Seamless booking.</h1>
+    <h1>Zanzibar Airport Transfer.<br><span class="em">One fixed price.</span> Named driver. No surprises.</h1>
     <p>You land at Terminal 3: tired, luggage in hand, and street taxis quote $30&nbsp;→&nbsp;$80 with no meter and no receipt. Not with us. Agree the price now, confirm your driver by name before you fly, and walk straight to a sign showing <strong>your</strong> name.</p>
     <div class="trustline">
       <span>Fixed all-inclusive price</span>
@@ -117,7 +115,7 @@
     </div>
 
     <h2>Get your fixed price now</h2>
-    <form class="booking" data-route="generic" id="booking-form">
+    <form class="booking" data-route="generic">
       <div class="row">
         <div>
           <label for="b_hotel">Hotel / area</label>
@@ -144,9 +142,7 @@
           </div>
         </div>
       </div>
-      <button type="submit" class="btn btn-wa">Get AI itinerary 💬</button>
-      <div id="itinerary-result" style="margin-top:12px; font-family:monospace; white-space:pre-wrap;"></div>
-      <button type="button" id="pay-button" class="btn btn-wa" style="display:none; margin-top:8px;">Pay $5 to lock booking</button>
+      <button type="submit" class="btn btn-wa">Send booking on WhatsApp 💬</button>
       <p class="note-flag" style="text-align:center; margin-top:6px">❤️ Printed prices are fixed* — *subject to your confirmed route and real driver quotes at booking.</p>
     </form>
 
@@ -187,7 +183,7 @@
   <div class="wrap">
     <div class="cols">
       <div>
-        <strong>Zanzibar AI Concierge</strong>
+        <strong>Zanzibar EasyTrip</strong>
         <p>Transparent, fixed-price transfers and curated island experiences, fulfilled by vetted licensed local operators.</p>
       </div>
       <div>
@@ -200,12 +196,11 @@
         </ul>
       </div>
     </div>
-    <p style="margin-top:14px">© 2026 Zanzibar AI Concierge. Prices shown are a fixed per-vehicle rate (up to 4 pax) and are confirmed in writing at booking.</p>
+    <p style="margin-top:14px">© 2026 Zanzibar EasyTrip. Prices shown are a fixed per-vehicle rate (up to 4 pax) and are confirmed in writing at booking.</p>
   </div>
 </footer>
 
 <script src="js/config.js"></script>
 <script src="js/book.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 /* ────────────────────────────────────────────────────────────────
-   Zanzibar AI Concierge — single source of truth.
+   Zanzibar EasyTrip — single source of truth.
    EDIT THIS FILE ONLY to go live: your real WhatsApp number,
    your real price set (after signed driver quotes), and your
    real payment-link (Pesapal / Stripe / M-Pesa merchant till).
@@ -7,7 +7,7 @@
    ──────────────────────────────────────────────────────────────── */
 
 const SITE = {
-  brand: 'Zanzibar AI Concierge',
+  brand: 'Zanzibar EasyTrip',
   tagline: 'One WhatsApp. Confirmed prices. Confirmed pickup. Real local operators.',
 
   /* Country code, digits only, no '+' and no spaces.
